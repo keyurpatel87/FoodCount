@@ -58,7 +58,7 @@ var v1 = Ti.UI.createView({
 });
 */
 
-btn1rm -rf .addEventListener("click", function (e) {
+btn1.addEventListener("click", function (e) {
     alert(e.source + "pushed");  
 });
 

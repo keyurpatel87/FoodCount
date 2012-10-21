@@ -7,14 +7,14 @@
     <property name="acs-oauth-key-development" type="string">7TAVze6nNttczGGxyyqwDY8lMkLuL93i</property>
     <property name="acs-api-key-development" type="string">4ohk4BlzHmflI2oJEbCNMT0CamUJnx9t</property>
     <deployment-targets>
-        <target device="mobileweb">true</target>
+        <target device="mobileweb">false</target>
         <target device="iphone">true</target>
         <target device="ipad">true</target>
         <target device="android">false</target>
         <target device="blackberry">false</target>
     </deployment-targets>
     <sdk-version>2.1.2.GA</sdk-version>
-    <id>com.food</id>
+    <id>s</id>
     <name>FoodCount</name>
     <version>1.0</version>
     <publisher>vinayashok</publisher>
