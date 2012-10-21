@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">phtGPpvGA9VkoRyyNjsxoR9sTkYB4fxF</property>
+    <property name="acs-oauth-key-production" type="string">9RHbXhQdG8YH9LCPe04CP21XiCvdyUHU</property>
+    <property name="acs-api-key-production" type="string">hnxOMpXsBdo3Spi49nG9RLouGjOvlDrp</property>
+    <property name="acs-oauth-secret-development" type="string">D7OJWYIeZj3FZac9Cm5kiErSV0U5jsSz</property>
+    <property name="acs-oauth-key-development" type="string">7TAVze6nNttczGGxyyqwDY8lMkLuL93i</property>
+    <property name="acs-api-key-development" type="string">4ohk4BlzHmflI2oJEbCNMT0CamUJnx9t</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.2.GA</sdk-version>
+    <id>com.food</id>
+    <name>FoodCount</name>
+    <version>1.0</version>
+    <publisher>vinayashok</publisher>
+    <url>http://www.gmail.com</url>
+    <description>not specified</description>
+    <copyright>2012 by vinayashok</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>33ae908d-cbd9-4266-a091-67e10469db95</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.3.0">ti.cloud</module>
+    </modules>
+</ti:app>
